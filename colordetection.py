@@ -40,7 +40,7 @@ while True:
                                        (x + w, y + h),
                                        (0,255,255), 2)
 
-            cv2.putText(imageFrame, "Yellow Colour", (x, y),
+            cv2.putText(imageFrame, "Yellow Color", (x, y),
                         cv2.FONT_HERSHEY_SIMPLEX, 1.0,
                         (0,255,255))
 
